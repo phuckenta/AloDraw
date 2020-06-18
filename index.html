@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="Js/index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Css/menu.css" />
+    <link rel="stylesheet" href="Css/home.css" />
+    <meta charset="UTF-8" />
+    <title>Drawing App</title>
+    <link rel="icon" type="image/ico" href="img/logo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville&family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          ><img class="logo" src="./img/logo-removebg-preview.png" alt=""
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Introduce</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Phần đầu animation-->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Drawing App</h1>
+          <h2 class="mx-auto mt-2 mb-5">
+            Draw your dream...
+            <i class="fa fa-paint-brush" aria-hidden="true"></i>
+          </h2>
+          <div class="button_max">
+            <div class="button_3d">
+              <a href="aloooo.html">
+                <i class="fas fa-play" aria-hidden="true"></i>
+                <span> - Get Start</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a id="about"></a>
+      </div>
+    </header>
+
+    <div class="container header">
+      <div class="row">
+        <div class="col-md-6 img">
+          <img src="./img/bg1.jpg" alt="" />
+        </div>
+        <div class="col-md-6 text">
+          <h2>Fully Responsive Design</h2>
+          <p>
+            For all the painters out there, My website turns your any computer
+            into the ultimate painting canvas. <br />
+            This is one of those simple raster drawing apps that can produce
+            some really fantastic artwork thanks for super realistic brushes
+            <br />
+            and massive canvas sizes.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 text">
+          <h2>Simple Interface, Easy To Use</h2>
+          <p>
+            There are a ton of drawing apps and art apps out there. <br />
+            We’re here to share the best drawing apps for desktop <br />
+            for 2020/2021. (And many are free!)
+          </p>
+        </div>
+        <div class="col-md-6 img">
+          <img src="./img/bg2.jpg" alt="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 img">
+          <img src="./img/bg9.jpg" alt="" />
+        </div>
+        <a id="projects"></a>
+        <div class="col-md-6 text">
+          <h2>Created By Some Of Vietnam's Top Designers</h2>
+          <p>
+            When you die, you are not aware of it, only the people around you
+            know it. When you code stupid too.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container-fluid main2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Drawing Story</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="card-deck">
+            <div class="card">
+              <img
+                onclick="show()"
+                class="card-img-top"
+                src="https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolour-4116932_960_720.png"
+                alt=""
+              />
+              <label for=""><p>Draw</p></label>
+            </div>
+            <span></span>
+            <div class="card">
+              <img
+                onclick="show1()"
+                class="card-img-top"
+                src="https://cdn.pixabay.com/photo/2017/08/02/22/38/bird-2573779_960_720.jpg"
+                alt=""
+              />
+              <label for=""><p>Color</p></label>
+            </div>
+            <span></span>
+            <div class="card">
+              <img
+                onclick="show2()"
+                class="card-img-top"
+                src="https://cdn.pixabay.com/photo/2015/11/03/10/23/watercolor-1020509_960_720.jpg"
+                alt=""
+              />
+              <label for=""><p>Change size</p></label>
+            </div>
+          </div>
+        </div>
+        <p><br /></p>
+        <div class="row">
+          <div class="card-deck">
+            <div class="card">
+              <img
+                onclick="show3()"
+                class="card-img-top"
+                src="https://cdn.pixabay.com/photo/2018/07/18/15/43/animal-3546613_960_720.jpg"
+                alt=""
+              />
+              <label for=""><p>Clear</p></label>
+            </div>
+            <span></span>
+            <div class="card">
+              <img
+                onclick="show4()"
+                class="card-img-top"
+                src="https://cdn.pixabay.com/photo/2015/12/27/21/11/paradise-1110498_960_720.jpg"
+                alt=""
+              />
+              <label for=""><p>Upload / Saving</p></label>
+            </div>
+            <span></span>
+            <div class="card">
+              <img
+                onclick="show5()"
+                class="card-img-top"
+                src="https://cdn.pixabay.com/photo/2015/12/05/08/25/fairy-tale-1077863_960_720.jpg"
+                alt=""
+              />
+              <label for=""><p>Share</p></label>
+            </div>
+          </div>
+          <a id="signup"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main3">
+      <div class="container">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="./img/hungngu" alt="" />
+            <div class="card-body">
+              <h3 class="card-title">Hung Labor</h3>
+              <p class="card-text text">
+                "If I Fail, I Try Again And Again, And again and never stop
+                learning because life never stop teaching."
+              </p>
+              <div class="contact">
+                Contact us:
+                <a
+                  href="https://www.facebook.com/profile.php?id=100005512876451"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+                <span></span>
+                <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <span></span>
+                <a href=""
+                  ><i class="fa fa-envelope-o" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./img/admin02.jpg" alt="" />
+            <div class="card-body">
+              <h3 class="card-title">Dat President</h3>
+              <p class="card-text">
+                "If you are not willing to learn, no one can help you. If you
+                are determined to learn, no one can stop you."
+              </p>
+              <div class="contact">
+                Contact us:
+                <a href="https://www.facebook.com/I.miss.you.forever"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+                <span></span>
+                <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <span></span>
+                <a href=""
+                  ><i class="fa fa-envelope-o" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./img/avatame.jpg" alt="" />
+            <div class="card-body">
+              <h3 class="card-title">CEO Phuc</h3>
+              <p class="card-text">
+                "A wise man can learn from a foolish question, and then a fool
+                can learn more from a wise answer."
+              </p>
+              <div class="contact">
+                Contact us:
+                <a
+                  href="https://www.facebook.com/profile.php?id=100008193485637"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+                <span></span>
+                <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <span></span>
+                <a href=""
+                  ><i class="fa fa-envelope-o" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container end-menu">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Let's Get In Touch!</h1>
+          <p></p>
+          <span><hr /></span>
+          <p></p>
+          <label for=""
+            ><p>
+              Ready to start your next project with us? Give us a call or send
+              us an email and we will get <br />
+              back to you as soon as possible!
+            </p></label
+          >
+        </div>
+      </div>
+      <div class="row icon">
+        <div class="col-md-4">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <p></p>
+          <span>0123.456.789</span>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <p></p>
+          <span
+            ><h5><b>Danang</b></h5></span
+          >
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <p></p>
+          <span
+            ><h5><b>CEOcompany@gmail.com</b></h5></span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="end">
+      <div class="copy">
+        <p>Desgin by DPH © 2020 - CEO COMPANY</p>
+      </div>
+    </div>
+  </body>
+</html>
