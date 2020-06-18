@@ -60,15 +60,20 @@
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
     color: black;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  #mainNav .nav-link-small {
+    color: white;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: black;
   }
   #mainNav .nav-link:active {
     color: #fff;
