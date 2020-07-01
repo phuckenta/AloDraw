@@ -1,0 +1,45 @@
+/* tạo nút top */
+
+.nuttop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.5s;
+    transform: rotate(30deg);
+}
+
+.nuttop:hover {
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.top {
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.top:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.nuttop.hiennuttop {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+/* tạo thanh cuộn màu */
+
+::-webkit-scrollbar {
+    background: white;
+    width: 15px;
+    height: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}

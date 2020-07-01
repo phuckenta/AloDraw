@@ -1,102 +1,103 @@
 body {
-  margin: 0px;
-  background-color: #283333;
+    margin: 0px;
+    background-color: #283333;
 }
 
 .toolbox {
-  height: 100vh;
-  position: absolute;
-
-  background-color: #3a4b4b;
+    height: 100vh;
+    position: absolute;
+    background-color: #3a4b4b;
 }
 
 .toolbox .group {
-  background-color: #3a4b4b;
-
-  border-bottom: thin solid gray;
+    background-color: #3a4b4b;
+    border-bottom: thin solid gray;
 }
 
 .toolbox .group .item {
-  width: 24px;
-  height: 24px;
-  padding: 10px;
-  cursor: pointer;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .toolbox .group .item img {
-  width: 100%;
-  height: 100%;
-  filter: invert(1);
+    width: 100%;
+    height: 100%;
+    filter: invert(1);
 }
 
 .toolbox .group .item.active,
 .toolbox .group .item:hover {
-  background-color: #4b6161;
+    background-color: #4b6161;
 }
 
 .toolbox .group.stroks .item {
-  position: relative;
+    position: relative;
 }
 
 .toolbox .group.stroks .item .stroke {
-  background-color: white;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 .toolbox .group.colors .item .swatch {
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  border: 2px white solid;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 2px white solid;
 }
 
 .toolbox.left {
-  top: 0px;
-  left: 0px;
+    top: 0px;
+    left: 0px;
 }
 
 .toolbox.right {
-  top: 0px;
-  right: 0px;
+    top: 0px;
+    right: 0px;
 }
 
 #canvas {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
 }
 
 body {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 .content {
-  width: 1170px;
-  margin: auto;
-  margin-top: 30px;
+    width: 1170px;
+    margin: auto;
+    margin-top: 30px;
 }
+
 .load {
-  width: 100%;
-  height: 100%;
-  background: rgb(245, 249, 255);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100000000000;
-  display: block;
-  overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: rgb(245, 249, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000000000;
+    display: block;
+    overflow: hidden;
 }
+
 .load img {
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  top: 45%;
-  left: 45%;
-  margin-top: -75px;
-  margin-left: -75px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin-top: -75px;
+    margin-left: -75px;
 }
